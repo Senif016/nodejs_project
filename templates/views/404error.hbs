@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <h4>404 Error</h4>
+                        <p>Welcome to weather app</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go to home</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>
